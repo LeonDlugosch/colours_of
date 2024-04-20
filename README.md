@@ -8,3 +8,5 @@ The colours_of_stuff project started sometime in early 2020, when all of us wher
 I spend a few evenings and tried out some different approaches but in the end I ended up with downscaling the images, and using the RGB values of each pixel to calculate Euclidean distances between them. Imagine a two-dimensional plane where each pixel of an image represents a point of data. According to their RGB values, these datapoints will group according to their similarity, i.e. reds (255, 0, 0) are more similar and therefore closer to oranges (255, 165, 0) than to blues (0, 0, 255). Example of unclustered, clustered and kmeans centroid below (left to right).
 
 ![](example/kmeans.png?raw=true)
+
+In a last effort to step to show of a decomposed image, a principal component analysis (PCA) is calculated and plotted one with original pixel colours and once with the average colour or the k-means centoids. 
