@@ -1,7 +1,7 @@
 # colours_of
 **tl;dr:** Shot skript to visually break down images into a colours based PCA and obtain k-means cluster based average image colours. 
 
-![](examples/Example.png?raw=true)
+![](example/Example.png?raw=true)
 
 ## Discription
 The colours_of_stuff project started sometime in early 2020, when all of us where doomed to a relatively secluded life by the onset of the COVID19 pandemic and I thought I should try out Instagram... which I managed to suffer through for about 3 whole months before more or less giving up again. I had dabbled with some image analysis in R before and since I always struggle with finding the 'right' colour set for visualizations, I wanted to take real works colour pallets into my some of my workflows and tried to find a statistical way to 'decompose' images into their principal colours. This idea is far from original, and the internet is full of mood boards, colour pallets and even R-packages supplying a wide variety of pallets. Some honourable mentions would be fishualize (colours from tropic fish species), ggsci  (palette from TV shows like the Simpsons, Futurama and Rick and Morty) or wesanderson (Wes Anderson movie pallets).
